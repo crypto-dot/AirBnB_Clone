@@ -13,7 +13,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+#root {
+  overflow: hidden;
+}
 nav {
   padding: 2rem;
   box-shadow:0 0 15px rgb(204 204 204)
@@ -29,6 +31,20 @@ nav {
 .heroImage {
   width: 70vw;
 }
+.locationText {
+  color:gray;
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
+.dot {
+  font-size: .7rem;
+}
+.cardInfoFirstLine {
+  display: flex;
+  align-items: center;
+  gap: .3rem;
+}
 .heroDescriptionContainer {
   padding-left: 7vw;
 }
@@ -42,6 +58,33 @@ p {
   max-width: 400px;
   font-weight: 300;
 }
+.cardInfo > p {
+  margin: .5rem 0 .5rem 0;
+}
+.onlineStatus {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  padding: .3rem;
+  border-radius: 3px;
+  background-color: white;
+  font-weight: 300;
+}
 .card {
   padding-left: 7vw;
+  padding-bottom: 7vw;
+}
+.imageHolder {
+  position: relative;
+}
+.infoHolderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+} 
+.cards {
+  display: flex;
+}
+.cardInfo {
+  max-width: 170px;
 }
