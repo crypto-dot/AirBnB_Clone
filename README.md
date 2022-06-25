@@ -1,3 +1,5 @@
+Live preview - https://crypto-dot.github.io/AirBnB_Clone/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
